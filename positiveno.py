@@ -11,5 +11,5 @@ def two_positive(a, b, c):
     return count == 2
 
 # Test cases
-print(two_positive(2, 4, -3))
+print(two_positive(2,4,-3))
 print(two_positive(3,9,4))

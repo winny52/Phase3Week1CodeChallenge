@@ -29,7 +29,24 @@ The two_positive function is designed to determine whether exactly two out of th
     two_positive(2, 4, -3) returns True because two values (2 and 4) are positive.
     two_positive(3, 9, 4) returns False because all three values are positive.
 
-# Consonant value
+# Consonant value calculator
+  ## Description
+
+This Python script provides functions to calculate and identify the highest value of consonants within a given string. It includes methods to determine consonant characters, calculate their values based on their position in the alphabet, and find the highest cumulative consonant value in the string.
+ ## Examples
+
+ Input string: "winny"
+ 
+    w' has a consonant value of 23.
+    'i' is not a consonant.
+    'n' has a consonant value of 14.
+    'n' has a consonant value of 14.
+    'y' has a consonant value of 25.
+
+The cumulative values are 23, 0, 14, 28, and 53. Therefore, the script outputs the highest cumulative consonant value, which is 53 for the input string "winny".
+
+
+
 
 ## Usage
 
